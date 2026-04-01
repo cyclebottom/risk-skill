@@ -1,0 +1,26 @@
+{
+  "name": "cyclebottom",
+  "owner": {
+    "name": "cyclebottom"
+  },
+  "metadata": {
+    "description": "CycleBottom risk assessment tools for crypto and stock indices"
+  },
+  "plugins": [
+    {
+      "name": "crypto-risk",
+      "source": "./",
+      "description": "Get real-time risk levels for crypto (BTC, ETH, ADA, SOL, BNB, LINK) and stock indices (DJIA, S&P 500, NASDAQ) from CycleBottom — a normalized 0-1 risk metric based on log-deviation from 365-day moving average.",
+      "version": "1.0.0",
+      "author": {
+        "name": "cyclebottom"
+      },
+      "homepage": "https://cyclebottom.com",
+      "repository": "https://github.com/cyclebottom/risk-skill",
+      "license": "MIT",
+      "keywords": ["crypto", "risk", "bitcoin", "market", "stocks", "indices"],
+      "category": "finance",
+      "tags": ["cryptocurrency", "risk-assessment", "market-analysis", "trading"]
+    }
+  ]
+}
